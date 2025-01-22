@@ -1,9 +1,1 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-C:\Users\RogerHerediaSoriano\Documents\GitHub\BloodySurfer\BloodySurf
-=======
-C:\Users\IvanGonzalezMartinez\Documents\GitHub\BloodySurfer\BloodySurf
->>>>>>> Stashed changes
-=======
 C:\Users\JoseAntonioJimenez\Documents\GitHub\BloodySurf\BloodySurf
->>>>>>> Stashed changes
