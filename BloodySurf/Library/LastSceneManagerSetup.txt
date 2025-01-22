@@ -1,5 +1,13 @@
 sceneSetups:
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+- path: Assets/Scenes/Roger/Scenes/MainMenu 1.unity
+=======
 - path: Assets/Scenes/Ivan.unity
+>>>>>>> Stashed changes
+=======
+- path: Assets/Scenes/Jose.unity
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
   isSubScene: 0

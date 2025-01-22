@@ -28,7 +28,7 @@ public class Movement : MonoBehaviour
 
         rb.velocity += movement * speed * Time.deltaTime;
 
-        rb.position += new Vector3(Mathf.Clamp(rb.position.x, -4f, 7f), Mathf.Clamp(rb.position.y, -4f, 7f));
+        rb.position = new Vector3(Mathf.Clamp(rb.position.x, -8f, 8f), Mathf.Clamp(rb.position.y, -1.4f, 6.7f), 0);
 
     }
 }
