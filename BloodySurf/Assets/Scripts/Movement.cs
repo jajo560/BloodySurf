@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour
 
     private float horizontal;
     private float vertical;
-    public float speed = 5;
+    public float speed;
     private Rigidbody rb;
     private Vector3 movement;
 
@@ -24,9 +24,11 @@ public class Movement : MonoBehaviour
         vertical = Input.GetAxisRaw("Vertical");
         horizontal = Input.GetAxisRaw("Horizontal");
 
-        movement = new Vector3(horizontal, 0, vertical);
+        movement = new Vector3(horizontal, vertical, 0);
 
-        rb.velocity = movement * speed * Time.deltaTime;
+        rb.velocity += movement * speed * Time.deltaTime;
+
+        rb.position += new Vector3(Mathf.Clamp(rb.position.x, -4f, 7f), Mathf.Clamp(rb.position.y, -4f, 7f));
 
     }
 }
