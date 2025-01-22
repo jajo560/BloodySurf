@@ -361,9 +361,13 @@
 "Assets/Scenes/Roger/Scripts/Audio Volume Control System/SFXAudioSource.cs"
 "Assets/Scenes/Roger/Scripts/Audio Volume Control System/UIElementInitializer.cs"
 "Assets/Scenes/Roger/Scripts/Menu/MainMenu.cs"
+<<<<<<< Updated upstream
 =======
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/EnemyManager.cs"
+>>>>>>> Stashed changes
+=======
+"Assets/Scripts/HealthManager.cs"
 >>>>>>> Stashed changes
 "Assets/Scripts/Movement.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
