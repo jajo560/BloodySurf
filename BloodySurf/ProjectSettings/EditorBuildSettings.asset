@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Roger/Scenes/Credits.unity
+    guid: 8a4ccdc4c21025143b24cb71d997c674
+  - enabled: 1
+    path: Assets/Scenes/Roger/Scenes/Level.unity
+    guid: 0ff7a35d663c27347b2dc152d8c90ce5
+  - enabled: 1
+    path: Assets/Scenes/Roger/Scenes/MainMenu.unity
+    guid: 87c386ff5abb10041a1ad76020430e02
   m_configObjects: {}
